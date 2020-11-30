@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{background-color: rgb(5, 64, 116);}
+a{
+ list-style: none;
+ text-decoration: none;
+ padding: 18px 15px;
+
+ color: rgb(231, 219, 219);
+ font-size: 30px;
+font-family: sans-serif;
+}
+
+ li{ 
+     display: inline-block;
+     margin-top: 10px;
+ }
+#navbar{
+    background-color: dodgerblue;
+    text-align: right;
+    height: 50px;
+}
+#navbar a:hover{
+    color: black;
+}
+#welcome-section h1{
+    font-family: monospace;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(6, 248, 216);
+}
+#welcome-section p{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+#welcome-section{
+    width: 100%;
+    height: 200px;
+ 
+}
+#welcome-section img{
+    margin: auto;
+    width: 10%;
+    height: 100%;
+   position: relative;left: 550px;
+   border-radius: 50%;
+}
+.presentacion{width: 75%;
+    margin: auto;
+    margin-top: 15px;
+   
+border: 2px solid wheat;}
+
+#projects{
+    text-align: center;
+    position: relative;top:200px ;}
+    .container{
+        margin-top: 15px;
+    }
+    .container .cards{
+        width:500px;
+        height: 380px;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 20px;
+        margin-top: 20px;
+        text-align: center;
+        cursor: pointer;
+        display: inline-block;
+    
+    }
+    #projects h2{
+        font-family: sans-serif;
+        font-size: 25px;
+        color: rgb(9, 238, 181);
+        margin-top: 20px;
+    }
+    .container .cards img{
+        width: 350px;
+        height: 330px;
+        margin-top: 10px;
+    }
+    .container .cards:hover{
+        transform: translateY(-15px) ;
+        box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+        
+        color: white;
+    }
+    .container .cards a{
+        color: rgb(255, 255, 255);
+    }
+    .container .cards a:hover{
+        color: rgb(15, 230, 194);
+    }
+    #contact{
+        text-align: center;
+        position: relative;top:300px ;
+    }
+    #contact h1{
+        font-size: 30px;
+        font-family: sans-serif;
+        color: rgb(12, 240, 202);
+        margin-top: 12px;
+
+    }
+    footer{
+       font-family: monospace;
+       position: relative;top: 350px;
+       width: 100%;
+       height: 25px;
+       background-color: white;
+
+    }
+    
